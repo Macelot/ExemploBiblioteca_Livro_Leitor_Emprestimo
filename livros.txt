@@ -1,0 +1,11 @@
+id, título, autor, editora
+1; A Lei do triunfo; Napoleon Hill; editora José Olympio;
+2; Empresas feitas para vencer; Jim Collins;;
+3; Atitude mental positiva; Napoleon Hill;;
+4; O Poder do Hábito Por Que Fazemos o Que Fazemos na Vida e Nos Negócios; Charles Duhigg;;
+5; Segredos da mente milionária; T. Harv Eker;;
+9; Ze dos Titãs; Abelim Feriss;;
+6; Geração de Valor; Flávio Augusto;;
+7; Sonho Grande; Cristiane Correa;;
+8; Pais inteligentes formam sucessores não herdeiros; Augusto Cury;;2
+10; De zero a um; Peter Thiel;;

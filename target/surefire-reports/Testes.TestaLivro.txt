@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Testes.TestaLivro
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.586 sec <<< FAILURE!
+Test_buscarPorId(Testes.TestaLivro)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError
+	at Testes.TestaLivro.Test_buscarPorId(TestaLivro.java:66)
+

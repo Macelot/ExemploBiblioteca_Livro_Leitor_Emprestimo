@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="1" name="Testes.TestaLivro" time="0.032" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14+36-1461"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\marce\Documents\NetBeansProjects\ExemploBiblioteca"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="Testes.TestaLivro"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\marce\Documents\NetBeansProjects\ExemploBiblioteca"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14+36-1461"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\marce\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\programas\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="D:\programas\NetBeans-12.0\netbeans\java\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Programas\PuTTY\;C:\Program Files\Java\jdk-14\bin;D:\programas\Git\cmd;C:\Users\marce\AppData\Local\Microsoft\WindowsApps;C:\Users\marce\AppData\Local\atom\bin;D:\Microsoft VS Code\bin;D:\inteliJ\IntelliJ IDEA Community Edition 2020.1.2\bin;;D:\src\flutter\bin;;D:\inteliJ\IntelliJ IDEA Educational Edition 2020.2\bin;;."/>
+    <property name="maven.conf" value="D:\programas\NetBeans-12.0\netbeans\java\maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\programas\NetBeans-12.0\netbeans\java\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\marce"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="marce"/>
+    <property name="java.class.path" value="D:\programas\NetBeans-12.0\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=Testes.TestaLivro -Dmaven.ext.class.path=D:\programas\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test-compile surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\programas\NetBeans-12.0\netbeans\java\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-03-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Testes.TestaLivro" name="Test_buscarPorId" time="0.029">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at Testes.TestaLivro.Test_buscarPorId(TestaLivro.java:66)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@68f7aae2
+Contando as linhas
+t10
+Id......:9
+Título..: Ze dos Titãs
+Autor...: Abelim Feriss
+----------------
+</system-out>
+  </testcase>
+  <testcase classname="Testes.TestaLivro" name="Test_carregaLivros" time="0"/>
+  <testcase classname="Testes.TestaLivro" name="Test_listaLivros" time="0.002"/>
+  <testcase classname="Testes.TestaLivro" name="Test_listaOrdenado" time="0.001"/>
+  <testcase classname="Testes.TestaLivro" name="contaLinhas" time="0"/>
+</testsuite>
